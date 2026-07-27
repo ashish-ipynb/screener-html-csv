@@ -122,9 +122,28 @@ st.markdown(
     <div style="text-align:center; color:gray; font-size:14px;">
         Made with ❤️ by
         <a href="https://github.com/ashish-ipynb" target="_blank">
-        <b>Ashish Kumar</b>
-        </a>
+            <b>Ashish Kumar</b>
+        </a><br>
+        <span style="font-size:13px;">
+            M.Sc. Bioinformatics • Open Source Project
+        </span>
     </div>
     """,
     unsafe_allow_html=True
+)
+st.caption(
+    "Convert a manually downloaded Screener 'Latest Quarterly Results' HTML page into a structured CSV."
+)
+
+with st.expander("ℹ️ About this application"):
+    st.write(
+        """
+        This application extracts financial data from a manually downloaded
+        Screener **Latest Quarterly Results** HTML page and converts it into
+        a structured CSV for further analysis.
+        """
+    )
+    
+st.markdown(
+    "[🌐 View Source Code](https://github.com/ashish-ipynb/screener-html-csv)"
 )
