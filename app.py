@@ -114,3 +114,17 @@ if uploaded_file is not None:
 else:
 
     st.info("Upload an HTML file to begin.")
+    
+st.divider()
+
+st.markdown(
+    """
+    <div style="text-align:center; color:gray; font-size:14px;">
+        Made with ❤️ by
+        <a href="https://github.com/ashish-ipynb" target="_blank">
+        <b>Ashish Kumar</b>
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
